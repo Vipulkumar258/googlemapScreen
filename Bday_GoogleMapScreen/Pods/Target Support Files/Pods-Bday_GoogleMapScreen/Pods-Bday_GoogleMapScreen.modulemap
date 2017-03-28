@@ -1,0 +1,6 @@
+framework module Pods_Bday_GoogleMapScreen {
+  umbrella header "Pods-Bday_GoogleMapScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

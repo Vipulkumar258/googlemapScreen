@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EventHeaderView" customModule="Bday" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rzO-gX-afX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="0.70214998719999999" green="0.0914240256" blue="0.20499041679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdy-FK-5Hf" customClass="MyCustomView" customModule="Bday" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="308.5" width="228" height="40.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yMZ-BJ-Tct">
+                    <rect key="frame" x="10" y="191.5" width="236" height="211.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday, December 12, 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4b-rJ-tQQ">
+                            <rect key="frame" x="0.0" y="0.0" width="236" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="byM-VM-lrW">
+                            <rect key="frame" x="0.0" y="25.5" width="236" height="186"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chris's Beach Party" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqi-7j-BXa">
+                                    <rect key="frame" x="0.0" y="0.0" width="236" height="81.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="34"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3D-jw-WKn">
+                                    <rect key="frame" x="0.0" y="101.5" width="218" height="20.5"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="Oceanside Drive ">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="/ Malibu CA">
+                                            <attributes>
+                                                <color key="NSColor" red="0.91771668195724487" green="0.32651481032371521" blue="0.37872570753097534" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElS-cQ-exO">
+                                    <rect key="frame" x="0.0" y="142" width="90" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="ksN-Ey-eJu"/>
+                                        <constraint firstAttribute="width" constant="90" id="qG6-Kv-6ba"/>
+                                    </constraints>
+                                    <state key="normal" title="RSVPs">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iec-ac-nzU">
+                    <rect key="frame" x="137" y="518" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="2xU-gC-fRu"/>
+                        <constraint firstAttribute="height" constant="30" id="V9K-qL-rQN"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="yMZ-BJ-Tct" secondAttribute="bottom" constant="165" id="COe-2d-RqT"/>
+                <constraint firstItem="rzO-gX-afX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="F7j-UR-Iqo"/>
+                <constraint firstItem="iec-ac-nzU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="VXk-iA-Vp8"/>
+                <constraint firstItem="cdy-FK-5Hf" firstAttribute="trailing" secondItem="u3D-jw-WKn" secondAttribute="trailing" id="VuF-ga-FyT"/>
+                <constraint firstAttribute="bottom" secondItem="rzO-gX-afX" secondAttribute="bottom" id="bXx-E2-GFb"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yMZ-BJ-Tct" secondAttribute="trailing" constant="70" id="bog-EU-Sah"/>
+                <constraint firstItem="rzO-gX-afX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cC3-g8-LK7"/>
+                <constraint firstItem="yMZ-BJ-Tct" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="h2q-3a-Sa9"/>
+                <constraint firstItem="cdy-FK-5Hf" firstAttribute="top" secondItem="u3D-jw-WKn" secondAttribute="top" constant="-10" id="hYp-mY-UZW"/>
+                <constraint firstAttribute="bottom" secondItem="iec-ac-nzU" secondAttribute="bottom" constant="20" id="iIY-Kk-gDy"/>
+                <constraint firstItem="cdy-FK-5Hf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nks-8z-BI1"/>
+                <constraint firstItem="cdy-FK-5Hf" firstAttribute="bottom" secondItem="u3D-jw-WKn" secondAttribute="bottom" constant="10" id="wlR-A9-GGL"/>
+                <constraint firstAttribute="trailing" secondItem="rzO-gX-afX" secondAttribute="trailing" id="zNB-dH-zQM"/>
+            </constraints>
+            <connections>
+                <outlet property="dayAndDateLabel" destination="Y4b-rJ-tQQ" id="sQK-6H-Eo2"/>
+                <outlet property="downArrowButton" destination="iec-ac-nzU" id="Q48-Vw-TbZ"/>
+                <outlet property="locationLabel" destination="u3D-jw-WKn" id="BkD-6e-2eg"/>
+                <outlet property="partyNameLabel" destination="Rqi-7j-BXa" id="hl1-Hx-mQK"/>
+                <outlet property="rsvpsButton" destination="ElS-cQ-exO" id="EyF-JG-ouS"/>
+            </connections>
+        </view>
+    </objects>
+</document>
